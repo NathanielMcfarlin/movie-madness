@@ -1,0 +1,20 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d90429;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.one-liner{
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homescreen {
+  margin-top: 250px;
+  border: solid, #d90429;
+  background-color: #8d99ae;
+}

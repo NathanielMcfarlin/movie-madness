@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.all-info{
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  width: 100%;
+  margin: 50px;
+  padding-right: 70px;
+}
+
+.right-side {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+/* Style the movie poster */
+.poster {
+  max-width: 100%; 
+  height: 900px;
+  margin: 75px;
+  border-radius: 2rem;
+}
+
+.movie-title {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-right: 175px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.actor-img {
+  max-width: 450px; 
+  height: auto;
+  border-radius: 1rem;
+  margin-right: 20px; 
+}
+
+.name {
+  font-size: 40px;
+  margin: 0;
+  color: #edf2f4;
+  padding: 10px;
+}
+
+.info-sum {
+  font-size: 25px;
+  margin: 100px;
+  line-height: 1.5;
+  background-color: #2b2d42;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: right;
+  margin-bottom: 25px;
+}
+
+ .edit-btn {
+
+  text-align: center;
+  width: 150px;
+  margin: 25px;
+  padding: 17px 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(255, 56, 86);
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: all .3s ease;
+  box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+  color: hsl(0, 0%, 100%);
+ }
+ 
+ .edit-btn:hover {
+  box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+ }
+ 
+ .edit-btn:active {
+  background-color: rgb(255, 56, 86);
+  /*50, 168, 80*/
+  box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 200ms;
+ }
