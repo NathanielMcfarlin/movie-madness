@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Container Styles */
+.movie-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form Styles */
+.movie-form {
+  background-color: #0d1321;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Header Styles */
+.header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Fieldset Styles */
+.movie-form-fieldset {
+  border: none;
+  margin-bottom: 20px; /* Increased spacing */
+}
+
+/* Label Styles */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input Styles */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px; 
+}
+
+/* Select Styles */
+.select-btn {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  margin-bottom: 15px; /* Increased spacing */
+}
+
+/* Button Styles */
+.submit-btn {
+  background-color: #ef233c;
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  border: none;
+}
+
+.submit-btn:hover {
+  background-color: #d90429;
+}
+
+#shortSummary {
+  height: 100px;
+}
+

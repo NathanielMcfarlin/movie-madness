@@ -1,0 +1,89 @@
+/* LoginForm.css */
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #2b2d42, #8d99ae);
+}
+
+
+.auth-form {
+  background-color: #8d99ae;
+  border-radius: 1rem;
+  border: solid #2b2d42;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); /* Increase the blur and color here */
+  padding: 20px;
+  text-align: center;
+  width: 500px; /* Adjust the maximum width as needed */
+  margin-bottom: 150px;
+}
+
+
+.sign-in-title {
+  font-size: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 50px;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  outline: #2b2d42;
+}
+
+.auth-fieldset {
+  border: none;
+  margin: 10px 0;
+  padding: 25px;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.auth-form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 17px 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(255, 56, 86);
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+}
+
+button:active {
+  background-color: rgb(255, 56, 86);
+  /*50, 168, 80*/
+  box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 200ms;
+}
+
+.register-link {
+  margin-top: 20px;
+}
+
+.register-link a {
+  text-decoration: none;
+  color: #d90429;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}

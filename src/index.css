@@ -1,21 +1,9 @@
 :root {
-  --primary-bg: #262222;
-  --secondary-bg: #fff;
-  --primary-text-color: #cecece;
+  --primary-bg: #2b2d42;
+  --secondary-bg: #8d99ae;
+  --primary-text-color: #edf2f4;
   --border-radius: 8px;
   --speed: 500ms;
-}
-
-body {
-  margin: 0;
-  font-family: 'Segoe UI', 'Roboto', Geneva, Verdana, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -mox-osx-font-smoothing: grayscale;
-  background-color: var(--primary-bg);
-}
-
-code {
-  font-family: 'Segoe UI', 'Roboto', Geneva, Verdana, sans-serif;
 }
 
 ul{
@@ -24,4 +12,44 @@ ul{
 
 a {
   text-decoration: none;
+}
+
+.movie-catalog {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  font-size: 100px;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  justify-content: space-around;
+  margin: 40px;
+}
+
+.filter-btn {
+  padding: 12px 20px; /* Adjust padding for larger size */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  position: absolute;
+  top:200px;
+  right: 40px; /* Move to the right side of the screen */
+}
+
+.filter-btn:hover {
+  background-color: #f0f0f0;
+}
+
+/* Optional: Style the dropdown arrow */
+.filter-btn::after {
+  content: '\25BC'; /* Unicode character for down arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
 }

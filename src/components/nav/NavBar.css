@@ -1,0 +1,54 @@
+
+
+.navbar {
+  list-style: none;
+  padding: 20px 0; /* Increase the vertical padding to make it thicker */
+  background-color: #333; /* Change the background color as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-item {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item a {
+  font-size: xx-large;
+  text-decoration: none;
+  color: white; /* Change the text color as needed */
+  padding: 10px 20px;
+  transition: color 0.3s;
+  line-height: 1.5; /* Increase the line-height to vertically center the text */
+}
+
+.navbar-item a:hover {
+  color: #D90429; /* Change the hover color as needed */
+}
+
+.navbar-new {
+  background-color: #D90429; 
+  color: white; 
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  line-height: 1.5;
+}
+
+.navbar-new:hover {
+  background-color: #AD5D4E; /* Change the hover background color as needed */
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white; /* Change the text color as needed */
+  padding: 10px 20px;
+  transition: color 0.3s;
+  line-height: 1.5; /* Increase the line-height to vertically center the text */
+}
+
+.navbar-link:hover {
+  color: #D90429; /* Change the hover color as needed */
+}
